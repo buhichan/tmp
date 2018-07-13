@@ -1,0 +1,16 @@
+{
+  "name": "haha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc -p ./commonjs && node ./commonjs/index.js"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.6",
+    "antd": "^3.6.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "typescript": "^2.9.2"
+  }
+}
